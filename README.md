@@ -8,10 +8,12 @@ An analysis of data from Open Baltimore for WGU D502 Capstone project; evaluatin
 * CSAs (Community Statistical Areas) Reference | https://data.baltimorecity.gov/maps/9c96ae20e6cc41258015c2fd288716c4
 ## Directories
 * raw_data - contains raw imported datasets and exploratory analysis notebook
-* clean_data - contains cleaned and transformed datasets
+* clean_data - contains cleaned, transformed, and merged datasets
 ## Files
 * merge.py - used to merge cleaned datasets into single dataset for regression analysis
 * regression.py - used to execute the regression analysis
 * raw_datasets.zip - contains all raw datasets
+* irr_plot.png - an error bar chart displaying the impact of the predictor variables
+* vacancy_homicide_scatter_dual.png - a paired scatterplot displaying correlation of IV and DV, with and without outliers
 * README.md - contains project overview
 * requirements.txt - contains project dependencies documentation
